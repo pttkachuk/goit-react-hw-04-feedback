@@ -5,8 +5,8 @@ const Statistics = ({ good, neutral, bad, total, positivePercentage }) => {
     return (
         <>
             <StyledStats>Good: {good}</StyledStats>
+             <StyledStats>Bad: {bad}</StyledStats>
             <StyledStats>Neutral: {neutral}</StyledStats>
-            <StyledStats>Bad: {bad}</StyledStats>
             <StyledImpStats>Total: {total}</StyledImpStats>
             <StyledPosStats>Positive feedback: {positivePercentage}%</StyledPosStats>
         </>
